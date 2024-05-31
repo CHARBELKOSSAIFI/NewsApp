@@ -11,7 +11,6 @@ export default function TabLayout() {
 
   return (
     <QueryClientProvider client={queryClient}>
-
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
